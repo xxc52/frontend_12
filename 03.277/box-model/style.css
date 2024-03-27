@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 40px;
+  border: 10px solid #000;
+  margin-bottom: 30px;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.inline {
+  background-color: green;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.inline red {
+  background-color: red;
+}
