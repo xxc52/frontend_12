@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  margin-left: 750px;
+}
+.grandparent {
+  width: 1000px;
+  background-color: rgb(28, 28, 28);
+  margin: 0 auto;
+  position: relative;
+}
+.grandparent2 {
+  width: 1000px;
+  height: 5000px;
+  background-color: rgb(74, 69, 69);
+  margin: 0 auto;
+  padding-top: 1000px;
+}
+.parent {
+  width: 500px;
+  background-color: gray;
+  margin: 0 auto;
+  position: relative;
+}
+
+.parent2 {
+  width: 500px;
+  height: 2000px;
+  background-color: gray;
+  margin: 0 auto;
+}
+
+.child {
+  width: 250px;
+  height: 250px;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  z-index: 3;
+}
+
+.red2 {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.blue2 {
+  background-color: blue;
+  position: sticky;
+  top: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  position: relative;
+}
+.yellow2 {
+  background-color: yellow;
+}
